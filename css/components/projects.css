@@ -1,0 +1,43 @@
+.portfolio {
+  height: 700px;
+  /* background-position: center;
+  background-image: url("https://www.middleburgsteakhouse.com/wp-content/uploads/chalkboard-background.jpg"); */
+}
+
+#title-project {
+  padding-top: 20px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+  padding-top: 20px;
+}
+
+#r3 {
+  width: 215px;
+  height: 450px;
+}
+
+#rentabike {
+  width: 570px;
+  height: 330px;
+}
+
+.project1 {
+  padding-top: 60px;
+}
+
+.project2 {
+  padding-top: 120px;
+}

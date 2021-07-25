@@ -1,0 +1,40 @@
+.mynavbar {
+  position: sticky;
+  top: 0;
+  max-width: 100%;
+  height: 8vh;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  font-family: 'Homemade Apple', cursive;
+}
+
+.mynavbar-name {
+  padding-left: 24px;
+  font-size: 20px;
+}
+
+.mynavbar-name a {
+  text-decoration: none;
+  color: rgba(25, 25, 25, 0.6);
+}
+
+.mynavbar-name a:hover {
+  color: rgba(25, 25, 25, 1);
+}
+
+.mynavbar-infos {
+  display: flex;
+}
+
+.mynavbar-infos a {
+  padding-right: 24px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgba(25, 25, 25, 0.6);
+}
+
+.mynavbar-infos a:hover {
+  color: rgba(25, 25, 25, 1);
+}

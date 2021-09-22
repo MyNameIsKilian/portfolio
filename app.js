@@ -1,17 +1,23 @@
-const intro = document.querySelector('.intro');
-intro.innerHTML = intro.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+const blob = document.querySelector('.blob')
+const redblob = document.querySelector('#redblob')
+const redblob2 = document.querySelector('#redblob2')
+const darkblob = document.querySelector('#darkblob')
+let i = 10
 
-// anime.timeline({loop: true})
-//   .add({
-//     targets: '.intro .letter',
-//     opacity: [0,1],
-//     easing: "easeInOutQuad",
-//     duration: 2250,
-//     delay: (el, i) => 150 * (i+1)
-//   }).add({
-//     targets: '.intro',
-//     opacity: 0,
-//     duration: 1000,
-//     easing: "easeOutExpo",
-//     delay: 1000
-//   });
+const rotateBlob = () => {
+  blob.style.transform = `rotate(${i}deg)`;
+  redblob.style.transform = `rotate(${i}deg)`;
+  redblob2.style.transform = `rotate(${i}deg)`;
+  darkblob.style.transform = `rotate(${i}deg)`;
+}
+
+// window.scrollY
+
+const navAbout = document.getElementById('nav-about');
+navAbout.addEventListener('click', () => {
+  darkblob.scrollIntoView();
+});
+
+
+setInterval(() => i += 10, 500)
+setInterval(rotateBlob, 500);

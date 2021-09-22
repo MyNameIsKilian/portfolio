@@ -1,3 +1,4 @@
+/* --COMPONENTS-- */
 @import url("components/about.css");
 @import url("components/banner.css");
 @import url("components/footer.css");
@@ -5,7 +6,29 @@
 @import url("components/projects.css");
 @import url("components/skills.css");
 
-body {
-  background-position: center;
-  background-image: url("https://www.middleburgsteakhouse.com/wp-content/uploads/chalkboard-background.jpg");
+/* --FONTS-- */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Gelasio&display=swap');
+
+:root {
+  --background: white;
+  --my-red: #e95638;
+  --my-light-blue: #55b6fb;
+  --my-dark-blue: #3a95d4;
+  --my-grey: #403D3A;
+  --my-font: 'Gelasio', serif;
+  --my-p-font: 'Cormorant Garamond', serif;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+}
+
+.body p {
+  font-size: 18px;
 }

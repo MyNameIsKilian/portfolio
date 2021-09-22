@@ -1,8 +1,77 @@
 .skills {
-  height: 500px;
+  height: 85vh;
   text-align: center;
-  /* background-position: center;
-  background-image: url("https://www.middleburgsteakhouse.com/wp-content/uploads/chalkboard-background.jpg"); */
-  color: white;
-  font-family: 'Homemade Apple', cursive;
+  margin-bottom: 4rem;
+  position: relative;
+  background-image: url('../../images/nuage-de-mots.jpg');
+  background-size: cover;
 }
+
+
+.icone-skills {
+  position: absolute;
+  width: 190px;
+  z-index: 0;
+}
+
+#cloud-skills {
+  width: 600px;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  color: var(--my-dark-blue);
+  font-family: var(--my-font);
+}
+
+#cloud-hosting {
+  top: 250px;
+  left: 140px;
+}
+
+#static-web {
+  top: 470px;
+  left: 230px;
+}
+
+#wireframe {
+  top: 65px;
+  right: 85px;
+}
+
+#bug-fix {
+  top: 65px;
+  left: 85px;
+}
+
+#devices {
+  top: 470px;
+  right: 230px;
+}
+
+#collaboration {
+  top: 250px;
+  right: 140px;
+}
+
+/* .container-skills {
+  display: flex;
+  height: 100%;
+} */
+
+/* .left-skills {
+  width: 50%;
+  position: relative;
+}
+
+.right-skills {
+  position: relative;
+  width: 50%;
+}
+
+.separation {
+  width: 1px;
+  background-color: var(--my-red);
+} */
+
+

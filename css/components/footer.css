@@ -3,16 +3,16 @@
   align-items: center;
   justify-content: center;
   height: 100px;
-  background-color: white;
+  background-color: var(--my-light-blue);
   font-size: 30px;
 }
 
 .footer a {
   text-decoration: none;
-  color: rgba(25, 25, 25, 0.6);
+  color: white;
   margin: 0px 20px;
 }
 
 .footer a:hover {
-  color: rgba(25, 25, 25, 1);
+  color: var(--my-dark-blue);
 }

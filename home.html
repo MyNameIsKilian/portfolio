@@ -6,32 +6,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kilian Alliot</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/d58bf5ede3.js" crossorigin="anonymous"></script>
 </head>
-<body>
-
+<body class="body">
+  
   <div class="mynavbar">
     <div class="mynavbar-name">
       <a href="#">Kilian Alliot</a>
     </div>
     <div class="mynavbar-infos">
-      <a href="#">Portfolio</a>
-      <a href="#">About me</a>
+      <a href="#">➡️</a>
+      <a id="nav-about" href="#">About me</a>
+      <a id="nav-skills"href="#">Skills</a>
+      <a id="nav-portfolio"href="#">Portfolio</a>
+      <a id="nav-contact"href="#">Contact</a>
     </div>
   </div>
   
   <div class="banner">
-      <h1 class="intro">Hello! I'm Kilian Alliot
-        <br> Junior
-        <br> Web
-        <br> Developer
-      </h1>
+    <img src="images/Kilian.png" alt="me">
+    <div class="welcome">
+      <img class="blob" src="images/blob.svg" alt="blob">
+      <div class="hello">
+        <h1 class="intro">Hello! I'm <span class="fullname">Kilian Alliot</span>
+          <br> Fullstack
+          <br> Web
+          <br> Developer
+        </h1>
+      </div>
+      <img id="intro-icone" src="images/dev.svg" alt="icone-dev">
+    </div>
   </div>
+
+  <div class="about">
+    <h2>Who am I ?</h2>
+    <p>My name is Kilian, I'm 23 years old. I live in Bordeaux 🇫🇷</p>
+    <img id="miror"src="images/career-miror.svg" alt="">
+    <p>After 4 years in cinematic industry, I have decided change my carreer way. So I learned web development at <span class="red-text">Le Wagon Bordaux</span>.</p>
+    <img id="coucou-web" src="images/coucou-web.svg" alt="coucou-web">
+    <p>I grew up so fast (only 9 weeks course) and I really loved that. I'm still learning everyday.</p>
+    <img id="growup" src="images/growup.svg" alt="">
+    <img id="teamwork" src="images/teamwork.svg" alt="">
+    <p>Now, I want to improve my code skills in a start-up or group which build something I like.</p>
+    <p>I wanna work with cool and inspirant people, in order to create cool and innovant things.</p>
+    <p>I'm open for remote job, I like to work in team.</p>
+    <p>I have a junior profile but I think we can do great things with hard work, motivation and time.</p>
+    <p>Why coding ?</p>
+    <p>Write lines on my keyboard, <span class="red-text">virtually</span>.</p>
+    <p>Help people with services/application, <span class="red-text">in reality</span>.</p>
+    <!-- <img id="blob1" src="images/blob.svg" alt="blob">
+    <img id="blob2" src="images/blob.svg" alt="blob"> -->
+  </div>
+  
+  <div class="skills">
+    <h2>My skills</h2>
+      <img class="icone-skills" id="static-web" src="images/static-web.svg" alt="">
+      <img class="icone-skills" id="cloud-hosting" src="images/cloud-hosting.svg" alt="">
+      <img class="icone-skills" id="bug-fix" src="images/bug-fix.svg" alt="">
+      <img class="icone-skills" id="wireframe" src="images/wireframe.svg" alt="">
+      <img class="icone-skills" id="devices" src="images/devices.svg" alt="">
+      <img class="icone-skills" id="collaboration" src="images/collaboration.svg" alt="">
+  </div>
+
+  
   <div class="portfolio">
+    <img id="redblob" src="images/blob.svg" alt="">
+    <img id="redblob2" src="images/blob.svg" alt="">
+    <img id="darkblob" src="images/darkblob.svg" alt="">
     <h2 id="title-project">My projects</h2>
     <div class="projects">
       <div class="project1">
@@ -45,20 +86,17 @@
     </div>
   </div>
 
-  <div class="skills">
-    <h3>This is what I can build</h3>
-  </div>
-
-  <div class="about">
-    <h3>Who I am</h3>
-  </div>
+  <!-- <div class="contact">
+    <h2>Contact</h2>
+  </div> -->
 
   <div class="footer">
     <a href="www.linkedin.com/in/kilian-alliot"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/MyNameIsKilian"><i class="fab fa-github"></i></a>
     <a href="https://www.instagram.com/kilian_alliot/?hl=fr"><i class="fab fa-instagram"></i></a>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
   <script src="app.js"></script>
+
 </body>
 </html>
